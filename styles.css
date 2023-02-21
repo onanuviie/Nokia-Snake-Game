@@ -30,7 +30,9 @@ body {
 
 .start {
     background-color: #78478b;
-    border-radius: 10px;
+    border-radius: 15px;
+    font-weight: bold;
     border: none;
     outline: none;
+    padding: 0.5rem 0.7rem;
 }
