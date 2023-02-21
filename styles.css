@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(189, 124, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: blue;
+}
+
+.apple {
+    background-color: red;
+}
+
+.start {
+    background-color: #78478b;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
